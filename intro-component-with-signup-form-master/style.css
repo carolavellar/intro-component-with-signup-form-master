@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+
+  width: 100vw;
+  place-items: center;
+  background: url(images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+}
+.container {
+  /* border: 2px solid black; */
+  display: flex;
+  width: 70vw;
+}
+.left {
+  /* border: 2px solid rgb(0, 255, 174); */
+}
+input{
+  background: none;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y:center ;
+
+  
+}
+.right {
+  /* border: 2px solid wheat; */
+  margin-left: 5vw;}
+#head {
+  color: white;
+  font-size: 46px;
+  width: 26vw;
+  font-weight: 700;
+}
+#para{
+    color: white;
+    width: 34vw;
+    line-height: 25px;
+    margin-top: 2vw;
+}
+#top{
+  background-color: hsl(246, 41%, 52%);
+  text-align: center;
+  border-radius: 5px;
+  place-items: center;
+
+  color: white;
+}
+#form{
+
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+#top{
+  margin-bottom: 2vw;
+  box-shadow: 0px 7px 0px 0px hsl(0deg 57% 57%);
+    padding: 0vw;
+}
+  input{
+    padding: 10px;
+    width: 25vw;
+    margin-top: 1vw;
+  }
+  #form{
+    background-color: white;
+    box-shadow: 0px 7px 0px 0px hsl(0deg 57% 57%);
+    
+    padding: 1vw;
+    border-radius: 5px;
+  }
+  #claim{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-align: center;
+    margin-top: 1vw;
+    padding: 0.5vw;
+  }
+.left{
+  margin-top: 7vw;
+}
+#email{
+  
+}
+
+  #bld{
+    font-weight: 600;
+  }
+  #top{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    padding: 0.75vw;
+}
+  #tehn{
+    margin-left: 0.5vw;
+  }
+  .term{
+    display: flex;
+    margin-top: .5vw;
+    font-size: 10px;
+    justify-content: center;
+  }
+  #policy{
+    color: red;
+    font-weight: 800;
+     margin-left: 0.25vw; 
+
+  }
+  #term{
+    color: hsl(246, 25%, 77%)
+    ;
+  }
+  #name-e,
+  #lname-e,
+  #email-e,
+  #pass-e{
+    font-size: 12px;
+    color: red;
+    display: flex;
+    /* display: none; */
+    /* display: none; */
+  justify-content: right;
+  min-height: 1.5vw;
+  }
+  span{
+    display: none;
+  }
+  input{
+    
+  }
+  #claim{
+    border-radius: 5px;
+  }
+  #claim:hover{
+    background-color: hsl(154, 100%, 64%);
+    cursor: pointer;
+  }
+
+
+
+@media screen and (max-width:1000px) {
+  .container{
+    flex-direction: row;
+  }
+
+}
+
+
+  @media screen and (max-width:800px) {
+    .container{
+      flex-direction: column;
+      align-items: center;
+      /* border: 2px solid; */
+      width: 109vw;
+      margin-left: 3vw;
+      margin-left: 3vw;
+      height: 100vh;
+    }
+    #head{
+      width: 80vw;
+      text-align: center;
+      font-size: 28px;
+    }
+    #para{
+      text-align: center;
+    color: white;
+    width: 80vw;
+    font-size: 12px;
+    margin-top: 1vw;
+    line-height: 22px;
+    margin-top: 2vw;
+    }
+    #top{
+      width: 70vw;
+      flex-direction: column;
+    }
+    input{
+      padding: 6px;
+      width: 79vw;
+      margin-top: 1vw;
+      padding-left: 5vw;
+    }
+    #form{
+      margin-left: -14vw;
+      margin-top: 5vw;
+      width: 90vw;
+      align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+    #claim{
+      padding: 10px;
+      width: 78vw;
+      margin-left: 6px;
+    }
+    #name-e,
+    #lname-e,
+    #email-e,
+    #pass-e{
+      min-height: 5vw;
+    }
+.term{
+  flex-direction: column;
+  text-align: center;
+}    
+#name{
+  margin-top: 4vw;
+}
+  }
+
+
+  @media screen and (max-width:500px) {
+    .container{
+      flex-direction: column;
+      align-items: center;
+      /* border: 2px solid; */
+      width: 109vw;
+      height: 100vh;
+    }
+    #head{
+      width: 80vw;
+      text-align: center;
+      font-size: 28px;
+    }
+    #para{
+      text-align: center;
+    color: white;
+    width: 80vw;
+    font-size: 12px;
+    margin-top: 1vw;
+    line-height: 22px;
+    margin-top: 2vw;
+    }
+    #top{
+      width: 70vw;
+      flex-direction: column;
+    }
+    input{
+      padding: 6px;
+      width: 79vw;
+      margin-top: 1vw;
+      padding-left: 5vw;
+    }
+    #form{
+      margin-left: -14vw;
+      margin-top: 5vw;
+      width: 90vw;
+      align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+    #claim{
+      padding: 10px;
+      width: 78vw;
+      margin-left: 6px;
+    }
+    #name-e,
+    #lname-e,
+    #email-e,
+    #pass-e{
+      min-height: 5vw;
+    }
+.term{
+  flex-direction: column;
+  text-align: center;
+}    
+#name{
+  margin-top: 4vw;
+}
+  }
